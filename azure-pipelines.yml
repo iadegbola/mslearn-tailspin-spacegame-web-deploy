@@ -10,7 +10,7 @@ schedules:
   displayName: Deploy every day at 3 A.M.
   branches:
     include:
-  - release
+    - release
   always: false
 
 stages:
